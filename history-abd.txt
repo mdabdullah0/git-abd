@@ -1,0 +1,1000 @@
+  357  sudo mkdir /etc/lightdm/lightdm.conf.d/
+  358  sudo touch /etc/lightdm/lightdm.conf.d/50-corp-custom.conf
+  359  sudo nano /etc/lightdm/lightdm.conf.d/50-corp-custom.conf
+  360  sudo apt-get install openssh-client samba guake openssh-server python-gnome2 python-gtkspellcheck python-gnome2 python-pip aspell-en youtube-dl chromium-browser cups-pdf gdebi libreoffice blueman bluez bluez-btsco bluez-obexd bluez-tools pulseaudio-* paprefs paman nautilus-dropbox bluez bluez-tools pulseaudio-module-bluetooth pavucontrol redshift nautilus-dropbox gparted evernote-mode portreserve gsfonts gsfonts-other gsfonts-x11 libc6:i386 libpopt0:i386 libglade2-0:i386 libreoffice gimp samba guake redshift
+  361  sudo nano /etc/rc.local 
+  362  cp -T surah-baqrah-login.ogg  /data/.surah-baqrah-login.ogg
+  363  sudo chown abdullah:abdullah /data
+  364  chmod -R ugo+rwx /data/
+  365  sudo chmod -R ugo+rwx /data/
+  366  sudo rsync -av archives/ /var/cache/apt/archives/
+  367  cd
+  368  cd Videos/cse-videos/
+  369  ./youtube-dl-bash-scripts-abd-05112015.sh 
+  370  redshift -0 2900
+  371  redshift -O 2900
+  372  sudo nano /etc/rc.local 
+  373  redshift -O 2800
+  374  sudo apt-get remove --purge alsa  
+  375  sudo apt-get install pavucontrol
+  376  gksu pavucontrol  
+  377  sudo apt-get install gnome alsa mixer
+  378  sudo apt-get install gnome-alsamixer 
+  379  alsamixergui 
+  380  alsamixer
+  381  lsactl restore
+  382  alsactl restore
+  383  alsamixer
+  384  alsamixergui 
+  385  alsactl restore
+  386  alsamixer reload
+  387  alsamixergui 
+  388  alsamixer
+  389  alsamixer reload
+  390  alsactl restore
+  391  ksudo gedit /etc/modprobe.d/alsa-base.conf
+  392  sudo gedit /etc/modprobe.d/alsa-base.conf
+  393  sudo nano /etc/modprobe.d/alsa-base.conf
+  394  sudo alsa force-reload
+  395  sudo nano /etc/modprobe.d/alsa-base.conf
+  396  cd /usr/share/pulseaudio/alsa-mixer/paths/
+  397  sudo cp analog-output-headphones.conf analog-output-headphones.bak
+  398  sudo nano analog-output-headphones.conf
+  399  sudo cp analog-output-headphones.conf analog-output-headphones.fixed
+  400  cd Videos/cse-videos/ && ./*.sh
+  401  sudo rsync -av /media/abdullah/Abdullah\ Linux/data/NEW-INSTALLATION-SCRIPTS/archives/ /var/cache/apt/archives/
+  402  sudo pcmanfm /var/cache/apt/archives/
+  403  sudo nano /etc/rc.local
+  404  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  405  sudo chmod a+rx /usr/local/bin/youtube-dl
+  406  sudo mkdir /etc/lightdm/lightdm.conf.d/
+  407  sudo touch /etc/lightdm/lightdm.conf.d/50-corp-custom.conf
+  408  sudo nano /etc/lightdm/lightdm.conf.d/50-corp-custom.conf
+  409  sudo apt-get update
+  410  sudo apt-get install zim openssh-client samba guake openssh-server python-gnome2 python-gtkspellcheck python-gnome2 python-pip aspell-en youtube-dl chromium-browser cups-pdf gdebi libreoffice blueman bluez bluez-btsco bluez-obexd bluez-tools pulseaudio-* paprefs paman nautilus-dropbox bluez bluez-tools pulseaudio-module-bluetooth pavucontrol redshift nautilus-dropbox gparted evernote-mode portreserve gsfonts gsfonts-other gsfonts-x11 libc6:i386 libpopt0:i386 libglade2-0:i386 libreoffice gimp samba guake redshift
+  411  sudo pcmanfm 
+  412  sudo dpkg -i cndrvcups-c*
+  413  sudo dpkg -i cndrvcups-common_3.20-1_i386.deb 
+  414  sudo nano /etc/cups/cups-pdf.conf
+  415  sudo chown abdullah:abdullah /data
+  416  sudo chmod -R ugo+rwx /data/
+  417  sudo chown abdullah:abdullah /home/abdullah
+  418  sudo chown -R abdullah:abdullah /home/abdullah
+  419  sudo chmod -R ug+rw /home/abdullah
+  420  chmod -R o-rwx ~
+  421  sudo mkdir /var/ccpd
+  422  sudo mkdir /var/captmon
+  423  sudo /usr/sbin/lpadmin -p LBP2900 -m CNCUPSLBP2900CAPTK.ppd -v ccp:/var/ccpd/fifo0 -E cndrvcups-capt depends on libpng12-0 (>= 1.2.13-4); however:
+  424  sudo /usr/sbin/lpadmin -p LBP2900 -m CNCUPSLBP2900CAPTK.ppd -v ccp:/var/ccpd/fifo0 -E
+  425  sudo /usr/sbin/ccpdadmin -p LBP2900 -o /dev/usb/lp0
+  426  sudo /etc/init.d/ccpd start
+  427  sudo apt-get install nautilus
+  428  sudo apt-get install nautilus-dropbox 
+  429  dropbox start
+  430  cd /data/cse-videos/ && ./*.sh
+  431  mkdir dailynews bigpicture policywatch indepth worldpanorama
+  432  cd
+  433  cd /data/cse-videos/ && ./*.sh
+  434  captstatusui -P LBP2900
+  435  sudo /etc/init.d/ccpd start
+  436  sudo /etc/init.d/ccpd status 
+  437  captstatusui -P LBP2900
+  438  cd /data/cse-videos/ && ./*.sh
+  439  sudo /etc/init.d/ccpd start
+  440  captstatusui -P LBP2900
+  441  cd /data/cse-videos/ && ./*.sh
+  442  sudo apt-get install vlc
+  443  cd /data/cse-videos/ && ./*.sh
+  444  captstatusui -P LBP2900
+  445  sudo /etc/init.d/ccpd start
+  446  captstatusui -P LBP2900
+  447  sudo synaptic
+  448  cd /data/cse-videos/ && ./*.sh
+  449  cd
+  450  cd /data/cse-videos/ && ./*.sh
+  451  sudo nano /etc/cups/cups-pdf.conf 
+  452  cd
+  453  cd /data/cse-videos/ && ./*.sh
+  454  sudo chown abdullah:abdullah /data
+  455  sudo chmod -R ugo+rwx /data/
+  456  sudo chmod -R ug+rw /data
+  457  sudo apt-get install pyrenamer 
+  458  cd /data/cse-videos/ && ./*.sh
+  459  clear
+  460  sudo chown abdullah:abdullah /data
+  461  sudo -R ugo+rwx /data/
+  462  sudo chmod -R ugo+rwx /data/
+  463  sudo chown abdullah:abdullah /home/abdullah
+  464  sudo chown -R abdullah:abdullah /home/abdullah
+  465  sudo chmod -R ug+rw /home/abdullah
+  466  chmod -R o-rwx ~
+  467  logout 
+  468  ./youtube-dl-bash-scripts-abd-05112015.sh 
+  469  cd
+  470  cd /data/cse-videos/ && ./*.sh
+  471  sudo apt-get install vlc
+  472  sudo mkdir /var/ccpd
+  473  sudo mkdir /var/captmon
+  474  sudo /usr/sbin/lpadmin -p LBP2900 -m CNCUPSLBP2900CAPTK.ppd -v ccp:/var/ccpd/fifo0 -E
+  475  sudo /usr/sbin/ccpdadmin -p LBP2900 -o /dev/usb/lp0
+  476  sudo /etc/init.d/ccpd start
+  477  sudo /etc/init.d/ccpd status
+  478  captstatusui -P LBP2900
+  479  sudo /etc/init.d/ccpd start
+  480  captstatusui -P LBP2900
+  481  sudo apt-get install nautilus
+  482  captstatusui -P LBP2900
+  483  sudo /etc/init.d/ccpd start
+  484  captstatusui -P LBP2900
+  485  sudo /etc/init.d/ccpd status
+  486  captstatusui -P LBP2900
+  487  sudo apt-get install synaptic 
+  488  cd /data/cse-videos/ && ./*.sh
+  489  sudo xinput -list
+  490  sudo xinput -list >> /home/abdullah/Desktop/input.txt
+  491  cd
+  492  synclient -l
+  493  sudo add-apt-repository ppa:gpointing-device-settings
+  494  cd /data/cse-videos/ && ./*.sh
+  495  sudo apt-get remove gnumeric abiword 
+  496  sudo apt-get install lubuntu-desktop 
+  497  cd /data/cse-videos/ && ./*.sh
+  498  cd
+  499  cd /data/cse-videos/ && ./*.sh
+  500  sudo apt-get install uget
+  501  cd /data/cse-videos/
+  502  youtube-dl -t -f 17 https://www.youtube.com/watch?v=X290RiGDxIk
+  503  cd /data/cse-videos/ && ./*.sh
+  504  sudo ccpd status
+  505  sudo service ccpd status 
+  506  sudo service ccpd start
+  507  cd /data/cse-videos/ && ./*.sh
+  508  cd /data/cse-videos/ && nano ./*.sh
+  509  cd /data/cse-videos/ && ./*.sh
+  510  sudo synaptic
+  511  cd /data/cse-videos/ && ./*.sh
+  512  cd
+  513  cd /data/cse-videos/ && ./*.sh
+  514  sudo service ccpd status 
+  515  sudo service ccpd start
+  516  sudo service ccpd status 
+  517  captstatusui -P LBP2900
+  518  sudo apt-get install nautilus-dropbox 
+  519  dropbox start
+  520  dropbox start -i
+  521  dropbox start
+  522  dropbox stop
+  523  dropbox start
+  524  dropbox status
+  525  dropbox start
+  526  sudo apt-get install nautilus-dropbox 
+  527  dropbox start
+  528  dropbox start -i
+  529  sudo service ccpd start
+  530  captstatusui -P LBP2900
+  531  cd /data/cse-videos/ && ./*.sh
+  532  captstatusui -P LBP2900
+  533  sudo service ccpd start
+  534  captstatusui -P LBP2900
+  535  sudo lshw >> Desktop/lshw-hp-mini.txt
+  536  sudo lsusb >> Desktop/lsusb-hp-mini.txt
+  537  sudo service bluetooth status 
+  538  cd /data/cse-videos/ && ./*.sh
+  539  sudo hcitool dev
+  540  hcitool dev
+  541  sudo service bluetooth status 
+  542  sudo apt-get remove bluez
+  543  sudo apt-get update 
+  544  sudo apt-get install bluez
+  545  sudo service bluetooth 
+  546  sudo service bluetooth status 
+  547  sudo systemctl status bluetooth.service 
+  548  sudo apt-get install blueman 
+  549  hcitool dev
+  550  sudo hcitool dev
+  551  sudo lsmod | grep bluetooth
+  552  sudo lsusb | grep bluetooth
+  553  sudo lsusb | grep Bluetooth
+  554  sudo dmesg | grep bluetooth
+  555  sudo rfkill list
+  556  sudo systemctl status bluetooth.service 
+  557  cd /data/cse-videos/ && ./*.sh
+  558  sudo service ccpd start
+  559  sudo apt-get install gnome-system-monitor 
+  560  cd
+  561  cd /data/cse-videos/ && ./*.sh
+  562  sudo apt-get install gnash
+  563  gnash
+  564  sudo apt-get install flashplugin-installer 
+  565  sudo apt-get remove flashplugin-downloader 
+  566  sudo apt-get install flashplugin-downloader 
+  567  cd /data/cse-videos/ && ./*.sh
+  568  sudo service ccpd start
+  569  sudo nano /usr/share/mime/packages/freedesktop.org.xml 
+  570  sudo update-mime-database /usr/share/mime
+  571  sudo apt-get install flashplugin-downloader 
+  572  cd /data/cse-videos/ && ./*.sh
+  573  cd
+  574  cd /data/cse-videos/ && ./*.sh
+  575  sudo service ccpd start
+  576  cd /data/cse-videos/ && ./*.sh
+  577  CD
+  578  cd
+  579  cd /data/cse-videos/ && ./*.sh
+  580  cd
+  581  cd /data/cse-videos/ && ./*.sh
+  582  cd
+  583  cd /data/cse-videos/ && ./*.sh
+  584  sudo apt-get update
+  585  sudo apt-get install chromium-browser
+  586  sudo service ccpd start
+  587  cd /data/cse-videos/ && ./*.sh
+  588  sudo apt-get install nautilus
+  589  nautilus
+  590  sudo nautilus
+  591  sudo killall dropbox 
+  592  cd /data/cse-videos/ && ./*.sh
+  593  cd /data/cse-videos/ && ./*.sh
+  594  sudo passwd abdullah
+  595  sudo killall dropbox 
+  596  sudo apt-get install chromium-browser
+  597  sudo apt-get update 
+  598  sudo apt-get install chromium-browser
+  599  cd /data/cse-videos/ && ./*.sh
+  600  cd
+  601  cd /data/cse-videos/ && ./*.sh
+  602  cd
+  603  cd /data/cse-videos/ && ./*.sh
+  604  cd
+  605  cd /data/cse-videos/
+  606  ./youtube-dl-bash-scripts-abd-05112015.sh 
+  607  cd
+  608  cd /data/cse-videos/ && ./*.sh
+  609  cd
+  610  cd /data/cse-videos/ && ./*.sh
+  611  sudo apt-get install filezilla
+  612  cd /data/cse-videos/ && ./*.sh
+  613  CD
+  614  cd
+  615  cd /data/cse-videos/ && ./*.sh
+  616  cd
+  617  cd /data/cse-videos/ && ./*.sh
+  618  cd /data/cse-videos/ && ./*.sh
+  619  sudo service ccpd start
+  620  cd /data/cse-videos/ && ./*.sh
+  621  sudo service ccpd start
+  622  cd /data/cse-videos/ && ./*.sh
+  623  CD
+  624  cd
+  625  cd /data/cse-videos/ && ./*.sh
+  626  sudo service ccpd start
+  627  cd /data/cse-videos/ && ./*.sh
+  628  cd
+  629  cd /data/cse-videos/ && ./*.sh
+  630  cd
+  631  cd /data/cse-videos/ && ./*.sh
+  632  snap
+  633  sudo apt-get install snap
+  634  snapd
+  635  sudo apt-get install snap
+  636  sudo apt-get install snapd
+  637  snap install tusk
+  638  cd /data/cse-videos/ && ./*.sh
+  639  cd
+  640  cd /data/cse-videos/ && ./*.sh
+  641  cd
+  642  cd /data/cse-videos/ && ./*.sh
+  643  cd
+  644  cd /data/cse-videos/ && ./*.sh
+  645  sudo service ccpd start
+  646  cd /data/cse-videos/ && ./*.sh
+  647  leafpad ./youtube-dl-bash-scripts-abd-05112015.sh 
+  648  cd /data/cse-videos/ && ./*.sh
+  649  cd
+  650  cd /data/cse-videos/ && ./*.sh
+  651  sudo service ccpd start
+  652  cd /data/cse-videos/ && ./*.sh
+  653  cd
+  654  cd /data/cse-videos/ && ./*.sh
+  655  cd
+  656  cd /data/cse-videos/ && ./*.sh
+  657  leafpad ./youtube-dl-bash-scripts-abd-05112015.sh 
+  658  cd /data/cse-videos/ && ./*.sh
+  659  sudo service ccpd start
+  660  cd /data/cse-videos/ && ./*.sh
+  661  sudo service ccpd start
+  662  captstatusui -P LBP2900
+  663  cd /data/cse-videos/ && ./*.sh
+  664  cd
+  665  cd /data/cse-videos/ && ./*.sh
+  666  cd
+  667  cd /data/cse-videos/ && ./*.sh
+  668  sudo killall chromium
+  669  cd /data/cse-videos/ && ./*.sh
+  670  sudo service ccpd start
+  671  cd /data/cse-videos/ && ./*.sh
+  672  sudo service ccpd start
+  673  cd /data/cse-videos/ && ./*.sh
+  674  cd
+  675  cd /data/cse-videos/ && ./*.sh
+  676  sudo passwd abdullah1
+  677  sudo passwd abdullah
+  678  scrot 
+  679  man scrot
+  680  sudo apt-get install flamesot
+  681  cd /data/cse-videos/ && ./*.sh
+  682  sudo service ccpd start
+  683  captstatusui -P LBP2900
+  684  cd /data/cse-videos/ && ./*.sh
+  685  sudo service ccpd start
+  686  cd /data/cse-videos/ && ./*.sh
+  687  cd
+  688  cd /data/cse-videos/ && ./*.sh
+  689  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  690  sudo chmod a+rx /usr/local/bin/youtube-dl
+  691  cd /data/cse-videos/ && ./*.sh
+  692  leafpad ./youtube-dl-bash-scripts-abd-05112015.sh 
+  693  cd
+  694  cd /data/cse-videos/ && ./*.sh
+  695  sudo apt-get install uget
+  696  sudo apt-get install net-tools 
+  697  network-admin 
+  698  sudo apt-get install gnome-nettool 
+  699  cd /data/cse-videos/ && ./*.sh
+  700  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=MYajLGoZotE
+  701  youtube-dl -c -i -t -f 133 https://www.youtube.com/watch?v=MYajLGoZotE
+  702  sudo service ccpd start
+  703  captstatusui -P LBP2900
+  704  sudo service ccpd start
+  705  captstatusui -P LBP2900
+  706  sudo service ccpd start
+  707  sudo apt-get install bittorrent-gui 
+  708  sudo service ccpd start
+  709  logout
+  710  sudo dropbox stop
+  711  sudo apt-get install nautilus-share 
+  712  sudo apt-get install samba samba-common system-config-samba python-glade2 gksu
+  713  sudo apt-get install filezilla
+  714  wget http://dst.bih.nic.in/NoticeBoard/Result_281020131822.pdf
+  715  wget http://dst.bih.nic.in/NoticeBoard/GradeC_Government_Polytechnic_College.pdf
+  716  sudo passwd abdullah
+  717  sudo nautilus
+  718  sudo service ccpd start
+  719  sudo service ccpd status
+  720  sudo service ccpd start
+  721  sudo apt-get install ubuntu-software 
+  722  sudo apt-get update 
+  723  sudo apt-get install ubuntu-software 
+  724  osmo 
+  725  calendar 
+  726  cal
+  727  calcurse
+  728  gcal
+  729  gcal2txt 
+  730  sudo service ccpd start
+  731  sudo nautilus
+  732  sudo service ccpd start
+  733  wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+  734  sudo gdebi AdbeRdr9.5.5-1_i386linux_enu.deb 
+  735  sudo service ccpd start
+  736  captstatusui -P LBP2900
+  737  dropbox start
+  738  sudo service ccpd start
+  739  captstatusui -P LBP2900
+  740  sudo service ccpd start
+  741  captstatusui -P LBP2900
+  742  sudo service ccpd start
+  743  captstatusui -P LBP2900
+  744  dropbox start
+  745  sudo service ccpd start
+  746  captstatusui -P LBP2900
+  747  sudo service ccpd start
+  748  captstatusui -P LBP2900
+  749  sudo service ccpd start
+  750  captstatusui -P LBP2900
+  751  sudo passwd abdullah
+  752  sudo snap install mailspring
+  753  sudo apt-get install kontact 
+  754  sudo apt-get install geary
+  755  sudo snap install hiri
+  756  sudo apt-get install geary
+  757  sudo apt-get install kontact 
+  758  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  759  sudo chmod a+rx /usr/local/bin/youtube-dl
+  760  sudo chmod a+rx /usr/local/bin/youtube-dl
+  761  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=XvZJ60uQ76s
+  762  cd /data/PUBAD/
+  763  ./youtube-PUBAD.sh 
+  764  sudo service ccpd start
+  765  sudo apt-get install qshutdown 
+  766  $ wget https://github.com/deragon/autopoweroff/releases/download/3.0.0/autopoweroff-3.0.0-1.noarch.deb
+  767  wget https://github.com/deragon/autopoweroff/releases/download/3.0.0/autopoweroff-3.0.0-1.noarch.deb
+  768  sudo dpkg -i autopoweroff-3.0.0-1.noarch.deb
+  769  sudo apt-get install -f
+  770  /data/PUBAD/VIDEOS\ PUBAD/
+  771  cd /data/PUBAD/VIDEOS\ PUBAD/
+  772  ./youtube-PUBAD.sh 
+  773  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  774  sudo chmod a+rx /usr/local/bin/youtube-dl
+  775  ./youtube-PUBAD.sh 
+  776  cd /data/data/cse-videos/
+  777  ./youtube-dl-bash-scripts-abd-05112015.sh 
+  778  sudo apt-get remove autopoweroff
+  779  sudo apt-get remove qshutdown 
+  780  sudo apt-get install gshutdown 
+  781  sudo apt-get remove gshutdown 
+  782  sudo apt-get remove complexshutdown 
+  783  shutdown -P 01:00
+  784  shutdown -c
+  785  shutdown -P 8:21
+  786  /data/cse-videos/./xyoutube-dl-bash-scripts-abd-31072019.sh 
+  787  cd /data/cse-videos/
+  788  ./xyoutube-dl-bash-scripts-abd-31072019.sh 
+  789  cd
+  790  cd Desktop/
+  791  cd
+  792  cd /data/cse-videos/
+  793  ./test.sh 
+  794  ./xyoutube-dl-bash-scripts-abd-31072019.sh 
+  795  ./1test.sh 
+  796  sudo apt-get remove complexshutdown 
+  797  a
+  798  sudo passwd abdullah
+  799  cd /data/cse-videos/
+  800  ./xyoutube-dl-bash-scripts-abd-31072019.sh 
+  801  sudo service ccpd start
+  802  sudo nautilus
+  803  sudo chmod -R ugo+rwx /data/cse-videos/
+  804  sudo chown abdullah:abdullah /data/cse-videos
+  805  sudo chown -R abdullah:abdullah /data/cse-videos/
+  806  sudo chmod -R ug+rw /data/cse-videos
+  807  chmod -R o-rwx /data/cse-videos
+  808  sudo chmod -R o-rwx /data/cse-videos
+  809  cd /data/cse-videos/
+  810  ./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  811  cd PUBAD/
+  812  youtube-dl -c -i -t -f 18 https://www.youtube.com/watch?v=lemhVVHLpA8
+  813  cd ..
+  814  ./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  815  cd /data/cse-videos/
+  816  ./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  817  sudo apt install telegram-desktop
+  818  sudo snap install telegram-desktop
+  819  sudo passwd abdullah
+  820  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  821  sudo apt-get install logwatch 
+  822  sudo apt-get remove logwatch 
+  823  sudo apt-get install glogg
+  824  sudo apt-get install gnome-system-log 
+  825  sudo apt-get install ksystemlog 
+  826  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  827  shutdown -P 22:55
+  828  shutdown -c
+  829  shutdown -P 23:50
+  830  shutdown -c
+  831  shutdown -P 00:30
+  832  shutdown -P 23:29
+  833  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  834  shutdown -P 23:20
+  835  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  836  shutdown -P 23:55
+  837  shutdown -P 00:15
+  838  shutdown -c
+  839  shutdown -P 00:15
+  840  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  841  sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+  842  sudo chmod a+rx /usr/local/bin/youtube-dl
+  843  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  844  youtube-dl -F https://www.youtube.com/watch?v=dr2TXMRgL38
+  845  youtube-dl -f 251 https://www.youtube.com/watch?v=dr2TXMRgL38
+  846  sudo service ccpd start
+  847  captstatusui -P LBP2900
+  848  nano ~/.config/lxsession/Lubuntu/desktop.conf
+  849  xdg-mime query default inode/directory
+  850  xdg-mime default nautilus.desktop inode/directory application/x-gnome-saved-search
+  851  xdg-mime query default inode/directory
+  852  sudo nautilus /usr/share/applications
+  853  sudo nautilus /usr/bin/nautilus
+  854  sudo leafpad /usr/bin/nautilus
+  855  sudo nautilus --no-desktop
+  856  sudo apt-get install cinelerra
+  857  sudo apt-get 
+  858  sudo apt-get install cinelerra
+  859  sudo apt-get install openshot
+  860  sudo apt-get install flowblade
+  861  sudo apt-get install openshot
+  862  sudo apt-get update 
+  863  sudo apt-get install flowblade
+  864  sudo apt-get install openshot
+  865  sudo service ccpd start
+  866  captstatusui -P LBP2900
+  867  sudo service ccpd stop
+  868  sudo service ccpd start
+  869  captstatusui -P LBP2900
+  870  sudo service ccpd stop
+  871  sudo service ccpd start
+  872  sudo service ccpd stop
+  873  captstatusui -P LBP2900
+  874  sudo service ccpd start
+  875  captstatusui -P LBP2900
+  876  apt-get install gnome-tweak-tool
+  877  sdu apt-get install gnome-tweak-tool
+  878  sudo apt-get install gnome-tweak-tool
+  879  sudo service ccpd start
+  880  captstatusui -P LBP2900
+  881  sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
+  882  sudo apt-get update
+  883  sudo remove-apt-repository "deb http://archive.canonical.com/ precise partner"
+  884  sudo service ccpd start
+  885  captstatusui -P LBP2900
+  886  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  887  sudo apt-get update
+  888  sudo service ccpd start
+  889  sudo apt-get update
+  890  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  891  sudo apt-get install recordmydesktop 
+  892  sudo apt-get install recordmydesktop
+  893  recordmydesktop
+  894  /data/cse-videos/./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  895  sudo service ccpd start
+  896  captstatusui -P LBP2900
+  897  cd /data/cse-videos/
+  898  ls
+  899  cd PUBAD/
+  900  youtube-dl -c -i -t -f 18 --playlist-end 50 https://www.youtube.com/playlist?list=PL48n6erI_cjBX3h2Z3tR-odqlAVIJcnZg
+  901  youtube-dl -c -i -t -f 18 --playlist-end 50 https://www.youtube.com/playlist?list=PL48n6erI_cjBmcJr3bNW0bKkI_mvqkzcA
+  902  youtube-dl -c -i -t -f 18 --playlist-end 50 https://www.youtube.com/watch?v=WIMAY4USJLQ&list=PL48n6erI_cjBmcJr3bNW0bKkI_mvqkzcA
+  903  /data/cse-videos/PUBAD/./pubad-lukmaan-31072019.sh 
+  904  youtube-dl -i --get-filename --skip-download --match-title "Ansari" https://www.youtube.com/channel/UCDiKI-0k4CY7IZOrGbDY69g/ >> abd.txt
+  905  youtube-dl -i --get-filename --skip-download https://www.youtube.com/channel/UCDiKI-0k4CY7IZOrGbDY69g/ >> /data/cse-videos/PUBAD/lukmaan-url1.txt
+  906  youtube-dl -i --get-filename --skip-download https://www.youtube.com/channel/UCDiKI-0k4CY7IZOrGbDY69g/ >> /data/cse-videos/PUBAD/lukmaan-url2.txt
+  907  /data/cse-videos/PUBAD/./pubad-lukmaan-31072019.sh 
+  908  shutdown -c
+  909  /data/cse-videos/PUBAD/./pubad-lukmaan-31072019.sh 
+  910  sudo killall audacious 
+  911  sudo killall -f audacious 
+  912  sudo killall audacious 
+  913  nano /data/cse-videos/PUBAD/./pubad-lukmaan-31072019.sh 
+  914  shutdown -P 1:30am
+  915  shutdown -P 1:30 am
+  916  shutdown -P 1:00 am
+  917  sudo service ccpd start
+  918  shutdown -P 1:00 am
+  919  shutdown -c
+  920  shutdown -P 1:00 am
+  921  shutdown -P 1:30 am
+  922  sudo apt-get install gespeaker
+  923  shutdown -P 3:00 am
+  924  /data/cse-videos/PUBAD/./pubad-lukmaan-31072019.sh 
+  925  sudo apt-get install apache
+  926  sudo apt-get install apache2
+  927  shutdown -c
+  928  shutdown -P 01:00
+  929  shutdown -c
+  930  cd ..
+  931  ./1xyoutube-dl-bash-scripts-abd-31072019.sh 
+  932  cd /data/cse-videos/PUBAD
+  933  ./pubad-lukmaan-31072019.sh 
+  934  cd /data/cse-videos/PUBAD
+  935  ./pubad-lukmaan-31072019.sh 
+  936  ./url.sh 
+  937  ./pubad-lukmaan-31072019.sh 
+  938  cd /data/cse-videos/PUBAD
+  939  ./pubad-lukmaan-31072019.sh 
+  940  cd /data/cse-videos/PUBAD
+  941  ./pubad-lukmaan-31072019.sh 
+  942  cd /data/cse-videos/PUBAD
+  943  ./pubad-lukmaan-31072019.sh 
+  944  cd /data/cse-videos/PUBAD
+  945  ./pubad-lukmaan-31072019.sh 
+  946  cd /data/cse-videos/PUBAD
+  947  ./pubad-lukmaan-31072019.sh 
+  948  cd /data/cse-videos/PUBAD
+  949  ./pubad-lukmaan-31072019.sh 
+  950  cd /data/cse-videos/PUBAD
+  951  ./pubad-lukmaan-31072019.sh 
+  952  sudo service ccpd start
+  953  captstatusui -P LBP2900
+  954  sudo service ccpd start
+  955  cd /data/cse-videos/PUBAD
+  956  ./pubad-lukmaan-31072019.sh 
+  957  cd /data/cse-videos/PUBAD
+  958  ./pubad-lukmaan-31072019.sh 
+  959  shutdown -c
+  960  cd /data/cse-videos/PUBAD
+  961  ./pubad-lukmaan-31072019.sh 
+  962  sudo service ccpd start
+  963  captstatusui -P LBP2900
+  964  cd /data/cse-videos/PUBAD
+  965  leafpad ./pubad-lukmaan-31072019.sh 
+  966  sudo killall ramme 
+  967  sudo service ccpd start
+  968  captstatusui -P LBP2900
+  969  cd /data/cse-videos/PUBAD
+  970  ./pubad-lukmaan-31072019.sh 
+  971  sudo apt-get install audacity
+  972  cd /data/cse-videos/PUBAD
+  973  ./pubad-lukmaan-31072019.sh 
+  974  cd /data/cse-videos/PUBAD
+  975  ./pubad-lukmaan-31072019.sh 
+  976  shutdown -P 01:30
+  977  shutdown -c
+  978  cd /data/cse-videos/PUBAD
+  979  sudo apt install python-nautilus gir1.2-nautilus-3.0 sshfs
+  980  mkdir -p ~/.local/share/gnome-shell/extensions
+  981  rm -rf ~/.local/share/gnome-shell/extensions/gsconnect@andyholmes.github.io
+  982  unzip -o gsconnect@andyholmes.github.io.zip -d ~/.local/share/gnome-shell/extensions/gsconnect@andyholmes.github.io
+  983  unzip -o Downloads/gsconnect@andyholmes.github.io.zip -d ~/.local/share/gnome-shell/extensions/gsconnect@andyholmes.github.io
+  984  sudo apt-get install indicator-kd
+  985  sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect
+  986  sudo apt update
+  987  sudo apt-get install indicator-kdeconnect
+  988  gsconnect
+  989  sudo apt install chrome-gnome-shell
+  990  ps -ef | grep kdeconnect
+  991  sudo netstat -tunelp | grep -i kdeconnect
+  992  sudo ufw status
+  993  netcat -z -v <your-phones-ip> 1714-1764 # Try phone and laptop, use port which netstat shows
+  994  netcat -z -v 192.168.43.1 1714
+  995  kdeconnect-cli 
+  996  kill -9 kdeconnectd
+  997  sudo killall kdeconnectd 
+  998  netcat -z -v 192.168.43.1 1714
+  999  netcat -z -v 192.168.43.1 1716
+ 1000  kdeconnect-cli 
+ 1001  sudo killall kdeconnectd 
+ 1002  kdeconnect-cli 
+ 1003  sudo netstat -tunelp | grep -i kdeconnect
+ 1004  netcat -z -v 192.168.43.1 1714
+ 1005  sudo netstat -tunelp | grep -i kdeconnect
+ 1006  sudo ufw disable
+ 1007  sudo netstat -tunelp | grep -i kdeconnect
+ 1008  netcat -z -v 192.168.43.1 1714
+ 1009  netcat -z -v 192.168.43.1 1716
+ 1010  kdeconnect-cli 
+ 1011  netcat -z -v 192.168.43.1 1716
+ 1012  netcat -z -v 192.168.43.1 1714
+ 1013  sudo apt-get remove kdeconnect
+ 1014  sudo apt install chrome-gnome-shell
+ 1015  GNOME Shell Integration 8.2.1
+ 1016  sudo apt-get remove chrome-gnome-shell
+ 1017  sudo apt install kdeconnect indicator-kdeconnect
+ 1018  cd ~/.local/share/gnome-shell/extensions
+ 1019  nautilus
+ 1020  rm /etc/opt/chrome/policies/managed/chrome-gnome-shell.json
+ 1021  rm /etc/chromium/policies/managed/chrome-gnome-shell.json
+ 1022  kdeconnect-cli 
+ 1023  killall kdeconnectd 
+ 1024  sudo killall bluetoothd 
+ 1025  killall kdeconnectd 
+ 1026  kdeconnect-cli 
+ 1027  kdeconnectd
+ 1028  killall kdeconnectd 
+ 1029  kdeconnect-send 
+ 1030  kdeconnect-cli idiotbox
+ 1031  killall kdeconnectd 
+ 1032  kdeconnect-cli idiotbox
+ 1033  killall kdeconnectd 
+ 1034  kdeconnect-cli 
+ 1035  sudo apt-get install scrcpy
+ 1036  sudo lshw 
+ 1037  sudo lshw ~abdullah/PDF/lshw.txt
+ 1038  sudo lshw >> ~abdullah/PDF/lshw.txt
+ 1039  sudo apt-get install ffmpeg
+ 1040  udo add-apt-repository ppa:obsproject/obs-studio
+ 1041  sudo add-apt-repository ppa:obsproject/obs-studio
+ 1042  sudo apt-get update
+ 1043  sudo apt-get install obs-studio
+ 1044  ffmpeg -vcodec mpeg4 -r 10 -g 300 -vd x11:0,0 -s 1280x1024
+ 1045  ffmpeg -vcodec mpeg4 -r 10 -g 300
+ 1046  sudo apt-get install putty
+ 1047  sudo apt-get install putty-tools 
+ 1048  sudo apt-get install gtk-recordmydesktop
+ 1049  sudo killall vlc
+ 1050  sudo killall vlc 
+ 1051  sudo service ccpd start
+ 1052  cd /data/cse-videos/PUBAD
+ 1053  ./pubad-lukmaan-31072019.sh 
+ 1054  sudo service ccpd start
+ 1055  sudo apt-get remove audacious
+ 1056  sudo abcd
+ 1057  hutdown
+ 1058  test
+ 1059  sudo apt-get install kdenlive
+ 1060  sudo service ccpd start
+ 1061  youtube-dl -c -i -t -F https://www.youtube.com/user/Bajiascooking/videos
+ 1062  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=AaxlJiqMA2A
+ 1063  cd Desktop/
+ 1064  ./bajia-yt.sh 
+ 1065  cd Desktop/ && ./bajia-yt.sh 
+ 1066  cd Desktop/youtube && ./bajia-yt.sh 
+ 1067  sudo service ccpd start
+ 1068  cd Desktop/youtube && ./bajia-yt.sh 
+ 1069  cd
+ 1070  cd Desktop/youtube && ./bajia-yt.sh 
+ 1071  cd
+ 1072  cd && cd Desktop/youtube && ./bajia-yt.sh 
+ 1073  sudo service ccpd start
+ 1074  captstatus -E LBP2900
+ 1075  captstatusui -E LBP2900
+ 1076  captstatusui -P LBP2900
+ 1077  cd && cd Desktop/youtube && ./bajia-yt.sh 
+ 1078  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=6SY04R9UqKs&t=143s
+ 1079  youtube-dl -c -i -t -f 18 https://www.youtube.com/watch?v=6SY04R9UqKs
+ 1080  cd && cd Desktop/youtube && ./bajia-yt.sh 
+ 1081  sudo service ccpd start
+ 1082  cd && cd Desktop/youtube && ./bajia-yt.sh 
+ 1083  leafpad bajia-yt.sh 
+ 1084  cd && cd Desktop/youtube && ./bajia-yt.sh 
+ 1085  clear
+ 1086  hjhhj
+ 1087  cls
+ 1088  clear
+ 1089  cd && cd Desktop/youtube && ./bajia-yt.sh 
+ 1090  sudo killall obs
+ 1091  shutdown -P 01:30
+ 1092  shutdown -P 02:15
+ 1093  shutdown -c
+ 1094  shutdown -P 02:15
+ 1095  shutdown -c
+ 1096  shutdown -P 02:15
+ 1097  shutdown -c
+ 1098  cd && cd Desktop/youtube/
+ 1099  cd && cd Desktop/youtube && ./bajia-yt.sh 
+ 1100  cd
+ 1101  clear
+ 1102  r
+ 1103  clear
+ 1104  cd && cd /data/youtube && ./bajia-yt.sh 
+ 1105  sudo nano /etc/resolv.conf
+ 1106  sudo killall ramme 
+ 1107  sudo apt-get install unrar
+ 1108  cd && cd /data/youtube && ./bajia-yt.sh 
+ 1109  shutdown -c
+ 1110  cd && cd /data/youtube && ./bajia-yt.sh 
+ 1111  clear
+ 1112  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=qMbfJYMRJLA
+ 1113  youtube-dl -c -i -t -f 250 https://www.youtube.com/watch?v=qMbfJYMRJLA
+ 1114  wget https://excellmedia.dl.sourceforge.net/project/extcalc-linux/extcalc-linux/0.9.3/extcalc-0.9.3.deb
+ 1115  killall vlc
+ 1116  sudo killall vlc
+ 1117  cd && cd /data/youtube && ./bajia-yt.sh 
+ 1118  nano /data/youtube && ./bajia-yt.sh 
+ 1119  nano /data/youtube/bajia-yt.sh 
+ 1120  youtube-dl -c -i -t -f 250 https://www.youtube.com/watch?v=xEktV_3pVgg
+ 1121  sudo apt-get install okular
+ 1122  sudo apt-get update 
+ 1123  sudo apt-get install okular
+ 1124  sudo killall obs
+ 1125  sudo service ccpd start
+ 1126  captstatusui -P LBP2900
+ 1127  sudo service ccpd start
+ 1128  captstatusui -P LBP2900
+ 1129  cd && cd /data/youtube && ./bajia-yt.sh 
+ 1130  sudo service ccpd start
+ 1131  captstatusui -P LBP2900
+ 1132  sudo service ccpd start
+ 1133  captstatusui -P LBP2900
+ 1134  sudo service ccpd start
+ 1135  captstatusui -P LBP2900
+ 1136  sudo apt-get install kazam 
+ 1137  snap install krita
+ 1138  sudo apt-get install krita
+ 1139  killall krita
+ 1140  sudo killall krita
+ 1141  sudo apt-get remove kazam 
+ 1142  sudo apt-get install inkspace
+ 1143  sudo apt-get install inkscape 
+ 1144  sudo apt-get remove krita
+ 1145  sudo snap install --edge olive-editor
+ 1146  sudo add-apt-repository ppa:olive-editor/olive-editor
+ 1147  sudo apt-get update 
+ 1148  sudo apt-get install olive 
+ 1149  sudo apt-get install olive-editor
+ 1150  sudo apt-get install olive 
+ 1151  olive 
+ 1152  sudo apt-get remove olive 
+ 1153  sudo apt-get install blender
+ 1154  sudo apt-get remove blender
+ 1155  sudo apt-get remove flowblade 
+ 1156  sudo apt-get remove kdenlive
+ 1157  sudo nautilus
+ 1158  sudo ap
+ 1159  sudo apt-get update 
+ 1160  sudo nautilus
+ 1161  sudo pcmanfm 
+ 1162  ls
+ 1163  cd /snapd
+ 1164  ls /
+ 1165  cd /snap
+ 1166  sudo rm /snap/*
+ 1167  sudo rv /snap/*
+ 1168  sudo rm -R /snap/*
+ 1169  sudo apt-get clean
+ 1170  sudo apt autoremove 
+ 1171  sudo apt autoclean 
+ 1172  sudo apt autoremove 
+ 1173  sudo journalctl --disk-usage 
+ 1174  sudo apt-get remove libreoffice
+ 1175  sudo apt-get remove obs-studio 
+ 1176  sudo apt-get remove openshot
+ 1177  man snap
+ 1178  snap remove telegram-desktop 
+ 1179  sudo snap remove telegram-desktop 
+ 1180  sudo apt autoremove 
+ 1181  shutdown -fs
+ 1182  shutdown -f
+ 1183  sudo apt-get remove firefox 
+ 1184  sudo apt-get remove python3
+ 1185  clear
+ 1186  sudo apt-get remove 
+ 1187  sudo apt-get remove python3.5
+ 1188  clear
+ 1189  sudo apt-get remove gcc
+ 1190  sudo apt-get remove libreoffice
+ 1191  sudo apt-get remove libreoffice*
+ 1192  sudo apt-get install localepurge
+ 1193  sudo apt-get update 
+ 1194  sudo apt-get install localepurge
+ 1195  localepurge 
+ 1196  sudo localepurge 
+ 1197  sudo locale-gen --purge en
+ 1198  . /etc/default/locale.
+ 1199  . /etc/default/locale
+ 1200  sudo . /etc/default/locale
+ 1201  sudo ./etc/default/locale
+ 1202  sudo . /etc/default/locale
+ 1203  sudo . /etc/default/locale .
+ 1204  sudo dpkg-reconfigure localepurge
+ 1205  sudo apt-get remove extcalc kmail nixnote2 wammu gammu mtpaint simple-scan 
+ 1206  sudo apt-get remove extcalc kmail wammu gammu mtpaint simple-scan 
+ 1207  sudo apt-get remove extcalc wammu gammu mtpaint simple-scan 
+ 1208  sudo apt-get remove geary kdeconnect ktnef pidgin putty sylpheed transmission dayplanner eqonomize gnucash homebank osmo xfburn ksystemlog
+ 1209  snap install telegram-desktop 
+ 1210  update snap
+ 1211  snap update
+ 1212  snap help
+ 1213  snap whoami 
+ 1214  sudo apt-get install snap
+ 1215  sudo apt autoremove 
+ 1216  sudo apt autoclean 
+ 1217  sudo nautilus
+ 1218  su
+ 1219  sudo lshw >> lshw-hp-laptop.txt
+ 1220  sudo apt-get install firefox
+ 1221  sudo apt-get install fdm 
+ 1222  fdm
+ 1223  man fdm
+ 1224  sudo apt-get install firefox
+ 1225  sudo apt-get install kodi
+ 1226  sudo apt-get install calibre
+ 1227  sudo apt-get install gnome-tweak-tool 
+ 1228  sudo apt-get install nitroshare 
+ 1229  sudo apt-get remove nitroshare 
+ 1230  sudo apt-get remove kodi
+ 1231  wget http://ncert.nic.in/textbook/pdf/mehc1dd.zip
+ 1232  CLEAR
+ 1233  clear
+ 1234  sudo apt-get update thundbird
+ 1235  sudo apt-get install thunderbird
+ 1236  sudo lshw >> Desktop/lshw.txt
+ 1237  sudo apt-get install htop
+ 1238  git clone https://github.com/aristocratos/bashtop
+ 1239  sudo apt-get install git
+ 1240  cd Downloads/bashtop-master/ && bash bashtop
+ 1241  bash
+ 1242  bash bashtop 
+ 1243  sudo apt-get install bash
+ 1244  bash bashtop 
+ 1245  sudo apt-get update bash
+ 1246  sudo apt-get upgrade bash
+ 1247  sudo make install 
+ 1248  bashtop 
+ 1249  ./bashtop 
+ 1250  cd
+ 1251  sudo apt-get install thermald
+ 1252  sudo add-apt-repository ppa:linrunner/tlp
+ 1253  sudo apt-get update 
+ 1254  sudo apt-get install tlp tlp-rdw
+ 1255  sudo apt-get install lm-sensors
+ 1256  sudo apt-get install indicator-cpufreq
+ 1257  sudo leafpad /etc/default/tlp
+ 1258  sudo tlp start
+ 1259  sudo sensors-detect
+ 1260  sudo apt-get install handbrake
+ 1261  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=SH4NZAZAlQQ
+ 1262  cd /data/youtube/ && /data/youtube/./bajia-yt.sh 
+ 1263  nano /data/youtube/./bajia-yt.sh 
+ 1264  cd /data/youtube/ && /data/youtube/./bajia-yt.sh 
+ 1265  nano /data/youtube/./bajia-yt.sh 
+ 1266  sudo apt-get install nixnote2 
+ 1267  sudo apt-get autoremove 
+ 1268  sudo apt-get autoclean 
+ 1269  sudo apt-get remove nixnote2 
+ 1270  sudo apt-get install nixnote2 
+ 1271  sudo add-apt-repository ppa:nixnote/nixnote2-daily
+ 1272  sudo apt update 
+ 1273  sudo apt install nixnote2 
+ 1274  nano /data/youtube/./bajia-yt.sh 
+ 1275  cd /data/youtube/ && /data/youtube/./bajia-yt.sh 
+ 1276  sudo snap 
+ 1277  sudo snap install telegram-desktop 
+ 1278  cd /data/youtube/ && /data/youtube/./bajia-yt.sh 
+ 1279  sudo apt-get install chromium-browser
+ 1280  sudo apt-get purge chrome-gnome-shell
+ 1281  sudo wget -qO - https://screenrec.com/download/pub.asc | sudo apt-key add -
+ 1282  sudo add-apt-repository 'deb https://screenrec.com/download/ubuntu stable main'
+ 1283  sudo wget -qO - https://screenrec.com/download/pub.asc | sudo apt-key add -
+ 1284  sudo apt update
+ 1285  sudo apt install screenrec
+ 1286  sudo wget -qO - https://screenrec.com/download/pub.asc
+ 1287  sudo apt-get install copyq
+ 1288  sudo add-apt-repository ppa:hluk/copyq
+ 1289  sudo apt update
+ 1290  sudo apt install copyq
+ 1291  sudo dpkg-reconfigure keyboard-configuration
+ 1292  sudo lscpu >> Desktop/lscpu.txt
+ 1293  sudo lshw >> Desktop/lshw.txt
+ 1294  sudo hwinfo >> Desktop/hwinfo.txt
+ 1295  sudo apt-get install hwinfo 
+ 1296  sudo hwinfo >> Desktop/hwinfo.txt
+ 1297  sudo lspci >> Desktop/lspci.txt
+ 1298  sudo lssci >> Desktop/lsscsi.txt
+ 1299  sudo apt-get install lsscsi 
+ 1300  sudo lssci >> Desktop/lsscsi.txt
+ 1301  sudo lsscsi >> Desktop/lsscsi.txt
+ 1302  sudo lsusb >> Desktop/lsusb.txt
+ 1303  sudo lnxi -Fx >> Desktop/lnxi.txt
+ 1304  sudo apt-get install lnxi
+ 1305  sudo apt-get install inxi 
+ 1306  sudo inxi -Fx >> Desktop/inxi.txt
+ 1307  sudo lsblk >> Desktop/lsblk.txt
+ 1308  sudo df -H >> Desktop/df.txt
+ 1309  sudo fdisk -l >> Desktop/fdisk.txt
+ 1310  sudo dmidecode -t processor >> Desktop/dmidecode.txt
+ 1311  sudo hdparm -i >> Desktop/hdparm.txt
+ 1312  sudo hdparm -i /dev/sda >> Desktop/hdparm.txt
+ 1313  sudo apt-get install hardinfo 
+ 1314  hardinfo 
+ 1315  history >> history.txt
+ 1316  history >> Desktop/history.txt
+ 1317  hardinfo 
+ 1318  sudo apt install python-gtk2
+ 1319  obkey 
+ 1320  cp ~/.config/openbox/lubuntu-rc.xml ~/.config/openbox/lubuntu-rc.xml.bck
+ 1321  obkey ~/.config/openbox/lubuntu-rc.xml
+ 1322  nano obkey.txt
+ 1323  shutter
+ 1324  sudo apt-get install shutter
+ 1325  lxsession-default screenshot window
+ 1326  xfce4-screenshooter -w
+ 1327  lxsession-default screenshot window
+ 1328  lxsession-default screenshot
+ 1329  openbox --reconfigure
+ 1330  del
+ 1331  sudo apt-get install git
+ 1332  git config --global user.name mdabdullah0
+ 1333  git config --global user.email sheikhmdabdullah@gmail.com
+ 1334  mkdir /hd/data/git-abd
+ 1335  man mkdir
+ 1336  mkdir /hd/data/git-abd/
+ 1337  mkdir /data/git-abd/
+ 1338  git init /data/git-abd
+ 1339  mkdir git-abd
+ 1340  git init git-abd
+ 1341  cd git-abd
+ 1342  nano README
+ 1343  git add README 
+ 1344  git commit -m Second-Commit-git-repo-abd
+ 1345  git remote add origin https://github.com/mdabdullah0/git-abd.git
+ 1346  git push -u origin master
+ 1347  nano README
+ 1348  git push -u origin master
+ 1349  git commit
+ 1350  git commit -m
+ 1351  git commit -m 2
+ 1352  git push -u origin master
+ 1353  git add README
+ 1354  git commit -m 2
+ 1355  git push -u origin master
+ 1356  history >> git-abd/history-abd.txt
