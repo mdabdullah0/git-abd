@@ -702,8 +702,8 @@
  1058  test
  1059  sudo apt-get install kdenlive
  1060  sudo service ccpd start
- 1061  youtube-dl -c -i -t -F https://www.youtube.com/user/Bajiascooking/videos
- 1062  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=AaxlJiqMA2A
+ 1061  youtube-dl -c -i -t -F https://www.youtube.com/
+ 1062  youtube-dl -c -i -t -F https://www.youtube.com/
  1063  cd Desktop/
  1064  ./bajia-yt.sh 
  1065  cd Desktop/ && ./bajia-yt.sh 
@@ -719,8 +719,8 @@
  1075  captstatusui -E LBP2900
  1076  captstatusui -P LBP2900
  1077  cd && cd Desktop/youtube && ./bajia-yt.sh 
- 1078  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=6SY04R9UqKs&t=143s
- 1079  youtube-dl -c -i -t -f 18 https://www.youtube.com/watch?v=6SY04R9UqKs
+ 1078  youtube-dl -c -i -t -F https://www.youtube.com/
+ 1079  youtube-dl -c -i -t -f 18 https://www.youtube.com/
  1080  cd && cd Desktop/youtube && ./bajia-yt.sh 
  1081  sudo service ccpd start
  1082  cd && cd Desktop/youtube && ./bajia-yt.sh 
@@ -761,7 +761,7 @@
  1117  cd && cd /data/youtube && ./bajia-yt.sh 
  1118  nano /data/youtube && ./bajia-yt.sh 
  1119  nano /data/youtube/bajia-yt.sh 
- 1120  youtube-dl -c -i -t -f 250 https://www.youtube.com/watch?v=xEktV_3pVgg
+ 1120  youtube-dl -c -i -t -f 250 https://www.youtube.com/
  1121  sudo apt-get install okular
  1122  sudo apt-get update 
  1123  sudo apt-get install okular
@@ -902,7 +902,7 @@
  1258  sudo tlp start
  1259  sudo sensors-detect
  1260  sudo apt-get install handbrake
- 1261  youtube-dl -c -i -t -F https://www.youtube.com/watch?v=SH4NZAZAlQQ
+ 1261  youtube-dl -c -i -t -F https://www.youtube.com
  1262  cd /data/youtube/ && /data/youtube/./bajia-yt.sh 
  1263  nano /data/youtube/./bajia-yt.sh 
  1264  cd /data/youtube/ && /data/youtube/./bajia-yt.sh 
@@ -974,7 +974,7 @@
  1330  del
  1331  sudo apt-get install git
  1332  git config --global user.name mdabdullah0
- 1333  git config --global user.email sheikhmdabdullah@gmail.com
+ 1333  git config --global user.email ######################@gmail.com
  1334  mkdir /hd/data/git-abd
  1335  man mkdir
  1336  mkdir /hd/data/git-abd/
